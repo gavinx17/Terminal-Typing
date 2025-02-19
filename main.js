@@ -1,4 +1,28 @@
-const lines = [
+<svg id="home" width="600" height="300" viewBox="0 0 400 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="10" y="10" width="380" height="180" rx="10" fill="#282C34"/>
+                <rect x="10" y="10" width="380" height="32" rx="10" fill="#363b45"/>
+                <circle cx="30" cy="28" r="5" fill="#FF5F56"/>
+                <circle cx="50" cy="28" r="5" fill="#FFBD2E"/>
+                <circle cx="70" cy="28" r="5" fill="#27C93F"/>
+                
+                <text x="20" y="60" fill="white" font-family="monospace" font-size="14">
+                    <tspan id="codeLine1"></tspan>
+                </text>
+                <text x="20" y="80" fill="white" font-family="monospace" font-size="14">
+                    <tspan id="codeLine2"></tspan>
+                </text>
+                <text x="20" y="100" fill="white" font-family="monospace" font-size="14">
+                    <tspan id="codeLine3"></tspan>
+                </text>
+                <text x="20" y="120" fill="white" font-family="monospace" font-size="14">
+                    <tspan id="codeLine4"></tspan>
+                </text>
+                <text x="20" y="140" fill="white" font-family="monospace" font-size="14">
+                    <tspan id="codeLine5"></tspan>
+                </text>
+            
+                <script>
+                    const lines = [
                     'const greet = (name) => {',
                     '    return `Hello, ${name} and ',
                     '    Welcome to my Portfolio!',
@@ -51,3 +75,5 @@ const lines = [
                 }, 400);
 
                 typeNextChar();
+                </script>
+            </svg>
