@@ -20,7 +20,7 @@
                 <text x="20" y="140" fill="white" font-family="monospace" font-size="14">
                     <tspan id="codeLine5"></tspan>
                 </text>
-            
+                // May have to add a new line if you are wanting to add more lines of code to your lines const.
                 <script>
                     const lines = [
                     'const greet = (name) => {',
@@ -34,7 +34,7 @@
                 let charIndex = 0;
                 let typingSpeed = 65;
                 let cursorVisible = true;
-                const cursorChar = '|'; // Cursor character
+                const cursorChar = '|';
 
                 function typeNextChar() {
                     if (lineIndex < lines.length) {
@@ -52,7 +52,7 @@
                             setTimeout(typeNextChar, 300); // Pause slightly between lines
                         }
                     } else {
-                        setTimeout(clearAndRestart, 1500); // Pause before restarting
+                        setTimeout(clearAndRestart, 1500);
                     }
                 }
 
